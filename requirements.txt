@@ -1,1 +1,17 @@
-pip install -r requirements.txt
+# Core web framework
+flask==3.0.2
+
+# For AI/ML backend logic (if using OpenAI or similar models)
+openai==1.3.5
+
+# For handling API requests and responses
+requests==2.31.0
+
+# For cross-origin frontend-backend communication
+flask-cors==4.0.0
+
+# Optional: Environment variable management
+python-dotenv==1.0.1
+
+# (Optional) For better logging and debugging
+gunicorn==21.2.0
